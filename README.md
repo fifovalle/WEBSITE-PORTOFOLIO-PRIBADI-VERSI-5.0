@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Tunggu sebentar! Saya sedang mengejar waktu untuk memberikan pengalaman terbaik kepada Anda. 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Selamat datang di Website Saya yang Sedang Dalam Pengembangan! 🌟
+Saya tengah giat bekerja untuk memberikan Anda pengalaman online yang lebih baik. Dari perancangan desain hingga pengkodean, saya mengupayakan agar website ini menjadi tempat yang informatif dan interaktif bagi Anda.
 
-## Available Scripts
+## 🤔 Tentang Portofolio
 
-In the project directory, you can run:
+Website ini adalah tempat di mana saya memamerkan portofolio saya yang mencakup berbagai proyek desain dan pengembangan web yang telah saya kerjakan. Saya berkomitmen untuk menciptakan pengalaman online yang menarik dan bermanfaat bagi pengguna, dan semua itu tercermin dalam karya-karya yang saya tampilkan di sini.
 
-### `npm start`
+## ⏳ Apa yang Akan Datang?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dalam versi 5.0 ini, saya telah melakukan berbagai perubahan dan peningkatan untuk meningkatkan kualitas dan navigasi website:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+-**Desain yang Lebih Modern:** Tampilan website telah diperbarui dengan desain yang lebih segar dan modern. -**Navigasi yang Ditingkatkan:** Anda akan dengan mudah menemukan proyek-proyek dan informasi yang Anda cari. -**Koleksi Proyek Terbaru:** Saya telah menambahkan proyek-proyek terbaru yang mencakup berbagai aspek desain dan pengembangan web.
 
-### `npm test`
+## 💬 Beri Masukan
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Saya menghargai pendapat Anda! Jika Anda memiliki ide atau masukan tentang apa yang ingin Anda lihat di website ini, jangan ragu untuk menghubungi Saya. Saya ingin website ini menjadi tempat yang berguna dan relevan bagi Anda.
 
-### `npm run build`
+## 📬 Kontak
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Ingin berkolaborasi atau mendiskusikan proyek? Jangan ragu untuk menghubungi saya melalui email di [fifanaufal10@gmail.com](mailto:fifanaufal10@gmail.com) atau terhubung dengan saya di [WhatApp](https://wa.me/+6281223652490).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Dibuat Dengan
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Bahasa Pemrograman: JavaScript.
+- Pengembangan Web: HTML, Styled-Components, React.
+- Alat Pengembangan: Visual Studio Code, Git
+- Kerangka Kerja: Node.js.
 
-### `npm run eject`
+Terima kasih atas kunjungan Anda dan kesabaran Anda selama proses pengembangan. Saya berharap dapat memberikan pengalaman yang lebih baik dalam waktu dekat! 🙌
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div align="center">
+  &copy; 2023 [Naufal FIFA]
+</div>
