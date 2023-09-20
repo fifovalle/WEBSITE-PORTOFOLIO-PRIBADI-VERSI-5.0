@@ -1,5 +1,5 @@
 export const temaGelap = {
-  latar: "#1C1C27",
+  latar: "transparent",
   latarCerah: "#1C1E27",
   primer: "#854CE6",
   teks_primer: "#F2F3F4",
@@ -9,6 +9,7 @@ export const temaGelap = {
   tombol: "#854CE6",
   putih: "#FFFFFF",
   hitam: "#000000",
+  warna_hover: "#FF56F6",
 };
 
 export const temaCerah = {

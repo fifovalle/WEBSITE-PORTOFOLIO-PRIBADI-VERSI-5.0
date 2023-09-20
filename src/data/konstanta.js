@@ -1,24 +1,24 @@
 // FILE SAYA
-import { react } from "../assets/react.png";
-import { nextjs } from "../assets/nextjs.png";
-import { tailwindcss } from "../assets/tailwindcss.png";
-import { bootstrap } from "../assets/bootstrap.png";
-import { typescript } from "../assets/typescript.png";
-import { javascript } from "../assets/javascript.png";
-import { sass } from "../assets/sass.png";
-import { html } from "../assets/html.png";
-import { css } from "../assets/css.png";
-import { nodejs } from "../assets/nodejs.png";
-import { git } from "../assets/git.png";
-import { figma } from "../assets/figma.png";
-import { fiver } from "../assets/fiver.png";
-import { sd } from "../assets/sd.png";
-import { smp } from "../assets/smp.png";
-import { smk } from "../assets/smk.png";
-import { kuliah } from "../assets/kuliah.png";
-import { proyek1 } from "../assets/proyek1.png";
-import { proyek2 } from "../assets/proyek2.png";
-import { proyek3 } from "../assets/proyek3.png";
+import react from "../assets/react.png";
+import nextjs from "../assets/nextjs.png";
+import tailwindcss from "../assets/tailwindcss.png";
+import bootstrap from "../assets/bootstrap.png";
+import typescript from "../assets/typescript.png";
+import javascript from "../assets/javascript.png";
+import sass from "../assets/sass.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import nodejs from "../assets/nodejs.png";
+import git from "../assets/git.png";
+import figma from "../assets/figma.png";
+import fiver from "../assets/fiver.png";
+import sd from "../assets/sd.png";
+import smp from "../assets/smp.png";
+import smk from "../assets/smk.png";
+import kuliah from "../assets/kuliah.png";
+import proyek1 from "../assets/proyek1.png";
+import proyek2 from "../assets/proyek2.png";
+import proyek3 from "../assets/proyek3.png";
 
 export const Biografi = {
   nama: "Naufal FIFA",

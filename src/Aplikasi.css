@@ -16,6 +16,9 @@ body {
   margin: 0px !important;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  background-image: url("./assets/latar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ::-webkit-scrollbar {
