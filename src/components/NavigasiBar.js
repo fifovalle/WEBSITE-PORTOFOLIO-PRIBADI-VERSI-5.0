@@ -1,28 +1,28 @@
 // FILE REACT
-import React, { useState } from "react";
+import React, { useState as gunakanKendali } from "react";
 import { FaBars } from "react-icons/fa";
 // FILE SAYA
 import {
   Navigasi,
   WadahNavigasi,
   LogoNavigasi,
-  IkonHP,
+  IkonUntukHP,
   MenuNavigasi,
   Tautan,
   WadahTombol,
   TombolGithub,
-  Bungkus,
-  DartarMenuHp,
-  DaftarTautanMenuHp,
+  Teks,
+  DartarMenuUntukHp,
+  DaftarTautanMenuUntukHp,
 } from "../styles/NavigasiBar.styled";
 import { TautanNavigasi } from "../data/konstanta";
 import Logo from "../assets/Logo.png";
 
 const NavigasiBar = () => {
-  const [buka, aturBuka] = useState(false);
-  const githubURL = "https://github.com/fifovalle";
+  const [buka, aturBuka] = gunakanKendali(false);
+  const urlGithub = "https://github.com/fifovalle";
   const bukaGithub = () => {
-    window.open(githubURL, "_blank");
+    window.open(urlGithub, "_blank");
   };
   const beralihMenjadiBuka = () => {
     aturBuka(!buka);
@@ -42,35 +42,35 @@ const NavigasiBar = () => {
             }}
           >
             <img src={Logo} alt="logo" width={"100px"} />
-            <Bungkus>aufal FIFA</Bungkus>
+            <Teks>aufal FIFA</Teks>
           </a>
         </LogoNavigasi>
-        <IkonHP>
+        <IkonUntukHP>
           <FaBars onClick={beralihMenjadiBuka} />
-        </IkonHP>
+        </IkonUntukHP>
         <MenuNavigasi>
-          {TautanNavigasi.map((daftar) => (
-            <Tautan key={daftar.id} href={daftar.tautan}>
-              {daftar.nama}
+          {TautanNavigasi.map((daftartautan) => (
+            <Tautan key={daftartautan.id} href={daftartautan.tautan}>
+              {daftartautan.nama}
             </Tautan>
           ))}
         </MenuNavigasi>
         <WadahTombol>
-          <TombolGithub onClick={bukaGithub}>Profil Github</TombolGithub>
+          <TombolGithub onClick={bukaGithub}>Github Saya</TombolGithub>
         </WadahTombol>
       </WadahNavigasi>
       {buka && (
-        <DartarMenuHp buka={buka}>
-          {TautanNavigasi.map((daftar) => (
-            <DaftarTautanMenuHp
-              key={daftar.id}
-              href={daftar.tautan}
+        <DartarMenuUntukHp buka={buka}>
+          {TautanNavigasi.map((daftartautan) => (
+            <DaftarTautanMenuUntukHp
+              key={daftartautan.id}
+              href={daftartautan.tautan}
               onClick={() => {
                 beralihMenjadiBuka();
               }}
             >
-              {daftar.nama}
-            </DaftarTautanMenuHp>
+              {daftartautan.nama}
+            </DaftarTautanMenuUntukHp>
           ))}
           <TombolGithub
             style={{
@@ -80,9 +80,9 @@ const NavigasiBar = () => {
             }}
             onClick={bukaGithub}
           >
-            Profil Github
+            Github Saya
           </TombolGithub>
-        </DartarMenuHp>
+        </DartarMenuUntukHp>
       )}
     </Navigasi>
   );

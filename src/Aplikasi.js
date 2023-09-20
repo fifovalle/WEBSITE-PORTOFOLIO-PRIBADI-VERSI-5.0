@@ -1,7 +1,7 @@
 // FILE REACT
 import { BrowserRouter as Jalur } from "react-router-dom";
 // FILE STYLED COMPONENTS
-import { ThemeProvider } from "styled-components";
+import { ThemeProvider as PenyediaTema } from "styled-components";
 // FILE SAYA
 import "./Aplikasi.css";
 import { temaGelap } from "./utils/Tema";
@@ -10,13 +10,13 @@ import NavigasiBar from "./components/NavigasiBar";
 
 function Aplikasi() {
   return (
-    <ThemeProvider theme={temaGelap}>
+    <PenyediaTema theme={temaGelap}>
       <Jalur>
         <NavigasiBar />
         <Badan></Badan>
         <Pembungkus></Pembungkus>
       </Jalur>
-    </ThemeProvider>
+    </PenyediaTema>
   );
 }
 

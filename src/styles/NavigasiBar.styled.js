@@ -1,7 +1,25 @@
 // FILE STYLED COMPONENTS
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes as kuncifrem } from "styled-components";
 // FILE REACT
 import { Link as TautanNavigasi } from "react-router-dom";
+
+const muncul = kuncifrem`
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
+
+const hilang = kuncifrem`
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+`;
 
 export const Navigasi = styled.div`
   background-color: ${({ theme }) => theme.latar};
@@ -55,22 +73,6 @@ export const LogoNavigasi = styled(TautanNavigasi)`
   @media screen and (max-width: 640px) {
     transition: 0.8s all ease;
     padding: 0 0px;
-  }
-`;
-
-export const IkonHP = styled.div`
-  display: none;
-  @media screen and (max-width: 768px) {
-    transition: 0.8s all ease;
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%, 50%);
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: ${({ theme }) => theme.teks_primer};
-    padding: 10px 5px;
   }
 `;
 
@@ -155,7 +157,7 @@ export const TombolGithub = styled.button`
   }
 `;
 
-export const Bungkus = styled.div`
+export const Teks = styled.div`
   padding: 0px 4px;
   font-weight: bold;
   font-size: 20px;
@@ -175,25 +177,24 @@ export const Bungkus = styled.div`
     font-size: 20px;
   }
 `;
-const fadeIn = keyframes`
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+
+export const IkonUntukHP = styled.div`
+  display: none;
+  @media screen and (max-width: 768px) {
+    transition: 0.8s all ease;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 50%);
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: ${({ theme }) => theme.teks_primer};
+    padding: 10px 5px;
   }
 `;
 
-const fadeOut = keyframes`
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-`;
-
-export const DartarMenuHp = styled.div`
+export const DartarMenuUntukHp = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -213,10 +214,10 @@ export const DartarMenuHp = styled.div`
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   opacity: ${({ buka }) => (buka ? "1" : "0")};
   z-index: ${({ buka }) => (buka ? "1" : "-1")};
-  animation: ${({ buka }) => (buka ? fadeIn : fadeOut)} 0.5s ease-in-out;
+  animation: ${({ buka }) => (buka ? muncul : hilang)} 0.5s ease-in-out;
 `;
 
-export const DaftarTautanMenuHp = styled(Tautan)`
+export const DaftarTautanMenuUntukHp = styled(Tautan)`
   color: ${({ theme }) => theme.putih};
   font-weight: 500;
   cursor: pointer;
