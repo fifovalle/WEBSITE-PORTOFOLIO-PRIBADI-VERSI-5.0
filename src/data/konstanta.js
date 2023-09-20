@@ -20,6 +20,34 @@ import proyek1 from "../assets/proyek1.png";
 import proyek2 from "../assets/proyek2.png";
 import proyek3 from "../assets/proyek3.png";
 
+export const TautanNavigasi = [
+  {
+    id: 0,
+    tautan: "#tentang",
+    nama: "Tentang",
+  },
+  {
+    id: 1,
+    tautan: "#keahlian",
+    nama: "Keahlian",
+  },
+  {
+    id: 2,
+    tautan: "#pengalaman",
+    nama: "Pengalaman",
+  },
+  {
+    id: 3,
+    tautan: "#proyek",
+    nama: "Proyek",
+  },
+  {
+    id: 4,
+    tautan: "#edukasi",
+    nama: "Edukasi",
+  },
+];
+
 export const Biografi = {
   nama: "Naufal FIFA",
   peran: ["Client Side Web Developer", "Programmer", "Mahasiswa", "Freelancer"],

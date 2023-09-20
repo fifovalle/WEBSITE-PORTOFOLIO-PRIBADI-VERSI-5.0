@@ -1,5 +1,6 @@
 // FILE REACT
-import React from "react";
+import React, { useState } from "react";
+import { FaBars } from "react-icons/fa";
 // FILE SAYA
 import {
   Navigasi,
@@ -11,10 +12,21 @@ import {
   WadahTombol,
   TombolGithub,
   Bungkus,
+  DartarMenuHp,
+  DaftarTautanMenuHp,
 } from "../styles/NavigasiBar.styled";
+import { TautanNavigasi } from "../data/konstanta";
 import Logo from "../assets/Logo.png";
 
 const NavigasiBar = () => {
+  const [buka, aturBuka] = useState(false);
+  const githubURL = "https://github.com/fifovalle";
+  const bukaGithub = () => {
+    window.open(githubURL, "_blank");
+  };
+  const beralihMenjadiBuka = () => {
+    aturBuka(!buka);
+  };
   return (
     <Navigasi>
       <WadahNavigasi>
@@ -29,22 +41,49 @@ const NavigasiBar = () => {
               textDecoration: "none",
             }}
           >
-            <img src={Logo} alt="" width={"100px"} />
+            <img src={Logo} alt="logo" width={"100px"} />
             <Bungkus>aufal FIFA</Bungkus>
           </a>
         </LogoNavigasi>
-        <IkonHP></IkonHP>
+        <IkonHP>
+          <FaBars onClick={beralihMenjadiBuka} />
+        </IkonHP>
         <MenuNavigasi>
-          <Tautan href="#tentang">Tentang</Tautan>
-          <Tautan href="#kealian">Kealian</Tautan>
-          <Tautan href="#pengalaman">Pengalaman</Tautan>
-          <Tautan href="#proyek">Proyek</Tautan>
-          <Tautan href="#edukasi">Edukasi</Tautan>
+          {TautanNavigasi.map((daftar) => (
+            <Tautan key={daftar.id} href={daftar.tautan}>
+              {daftar.nama}
+            </Tautan>
+          ))}
         </MenuNavigasi>
         <WadahTombol>
-          <TombolGithub>Github Saya</TombolGithub>
+          <TombolGithub onClick={bukaGithub}>Profil Github</TombolGithub>
         </WadahTombol>
       </WadahNavigasi>
+      {buka && (
+        <DartarMenuHp buka={buka}>
+          {TautanNavigasi.map((daftar) => (
+            <DaftarTautanMenuHp
+              key={daftar.id}
+              href={daftar.tautan}
+              onClick={() => {
+                beralihMenjadiBuka();
+              }}
+            >
+              {daftar.nama}
+            </DaftarTautanMenuHp>
+          ))}
+          <TombolGithub
+            style={{
+              padding: "10px 16px",
+              color: "white",
+              width: "max-content",
+            }}
+            onClick={bukaGithub}
+          >
+            Profil Github
+          </TombolGithub>
+        </DartarMenuHp>
+      )}
     </Navigasi>
   );
 };

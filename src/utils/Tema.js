@@ -5,7 +5,7 @@ export const temaGelap = {
   teks_primer: "#F2F3F4",
   teks_sekunder: "#b1b2b3",
   kartu: "#171721",
-  kartu_cerah: "#191924",
+  kartu_cerah: "#FF597B",
   tombol: "#854CE6",
   putih: "#FFFFFF",
   hitam: "#000000",
