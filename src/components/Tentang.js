@@ -86,6 +86,7 @@ const Tentang = () => {
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 1.7, duration: 0.5, ease: "easeOut" }}
+              viewport={{ once: false, amount: 0.7 }}
             >
               Cek Ringkasan Singkat
             </TombolRingkasan>
@@ -94,6 +95,7 @@ const Tentang = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.7, duration: 1, ease: "easeInOut" }}
+            viewport={{ once: false, amount: 0.7 }}
           >
             <AnimatePresence mode="wait">
               <Foto
@@ -117,7 +119,6 @@ const Tentang = () => {
               transition={{ duration: 20, repeat: Infinity }}
               src={gambarpartikel}
               alt="Partikel"
-              className="absolute bottom-[-30px] left-[-150px] w-[200px]"
             />
             <Partikel2
               animate={{
@@ -128,7 +129,6 @@ const Tentang = () => {
               transition={{ duration: 18, repeat: Infinity }}
               src={gambarpartikel}
               alt="Partikel"
-              className="absolute bottom-[-30px] left-[-150px] w-[200px]"
             />
             <Partikel3
               animate={{
@@ -139,7 +139,6 @@ const Tentang = () => {
               transition={{ duration: 15, repeat: Infinity }}
               src={gambarpartikel}
               alt="Partikel"
-              className="absolute bottom-[-30px] left-[-150px] w-[200px]"
             />
           </TentangBagianKanan>
         </IsiTentang>

@@ -233,6 +233,23 @@ export const Partikel = styled(motion.img)`
   width: 160px;
   height: 160px;
   bottom: 20px;
+  @media screen and (max-width: 960px) {
+    bottom: 450px;
+    left: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    bottom: 500px;
+    left: 100px;
+  }
+  @media screen and (max-width: 640px) {
+    bottom: 400px;
+    left: 50px;
+    width: 130px;
+    height: 130px;
+  }
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 export const Partikel2 = styled(motion.img)`
   position: absolute;
@@ -240,6 +257,23 @@ export const Partikel2 = styled(motion.img)`
   height: 160px;
   top: -20px;
   right: 200px;
+  @media screen and (max-width: 960px) {
+    bottom: 450px;
+    left: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    bottom: 700px;
+    left: 150px;
+  }
+  @media screen and (max-width: 640px) {
+    bottom: 700px;
+    left: 100px;
+    width: 130px;
+    height: 130px;
+  }
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `;
 
 export const Partikel3 = styled(motion.img)`
@@ -248,4 +282,21 @@ export const Partikel3 = styled(motion.img)`
   height: 160px;
   top: 170px;
   left: 880px;
+  @media screen and (max-width: 960px) {
+    bottom: 650px;
+    left: 700px;
+  }
+  @media screen and (max-width: 768px) {
+    bottom: 700px;
+    left: 550px;
+  }
+  @media screen and (max-width: 640px) {
+    bottom: 700px;
+    left: 500px;
+    width: 130px;
+    height: 130px;
+  }
+  @media screen and (max-width: 600px) {
+    display: none;
+  }
 `;
