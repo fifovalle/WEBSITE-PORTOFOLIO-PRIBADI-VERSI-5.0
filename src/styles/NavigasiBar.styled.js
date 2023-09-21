@@ -146,6 +146,7 @@ export const TombolGithub = styled.button`
       #ff56f6 117.04%
     );
     color: ${({ theme }) => theme.putih};
+    cursor: pointer;
   }
   @media screen and (max-width: 938px) {
     transition: 0.8s all ease;
@@ -205,10 +206,10 @@ export const DartarMenuUntukHp = styled.div`
   padding: 12px 40px 24px 40px;
   background: linear-gradient(
     92.23deg,
-    rgba(255, 86, 246, 0) 21.43%,
+    rgba(255, 86, 246, 0.2) 21.43%,
     rgba(185, 54, 238, 0.3) 50.63%,
-    rgba(59, 172, 226, 0.4) 100%,
-    rgba(64, 106, 255, 0.5) 117.04%
+    rgba(59, 172, 226, 0.2) 100%,
+    rgba(64, 106, 255, 0.3) 117.04%
   );
   border-radius: 0 0 20px 20px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);

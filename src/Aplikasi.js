@@ -7,6 +7,7 @@ import "./Aplikasi.css";
 import { temaGelap } from "./utils/Tema";
 import { Badan, Pembungkus } from "./styles/Aplikasi.styled";
 import NavigasiBar from "./components/NavigasiBar";
+import Tentang from "./components/Tentang";
 
 function Aplikasi() {
   return (
@@ -14,7 +15,9 @@ function Aplikasi() {
       <Jalur>
         <NavigasiBar />
         <Badan></Badan>
-        <Pembungkus></Pembungkus>
+        <Pembungkus>
+          <Tentang />
+        </Pembungkus>
       </Jalur>
     </PenyediaTema>
   );

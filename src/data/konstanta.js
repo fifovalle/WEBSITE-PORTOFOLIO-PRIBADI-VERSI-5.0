@@ -1,4 +1,7 @@
 // FILE SAYA
+import profil1 from "../assets/1.png";
+import profil2 from "../assets/gambar2.png";
+import profil3 from "../assets/gambar3.png";
 import react from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import tailwindcss from "../assets/tailwindcss.png";
@@ -48,11 +51,17 @@ export const TautanNavigasi = [
   },
 ];
 
+export const Transisi = {
+  duration: 0.5,
+  ease: "easeInOut",
+};
+
 export const Biografi = {
-  nama: "Naufal FIFA",
-  peran: ["Client Side Web Developer", "Programmer", "Mahasiswa", "Freelancer"],
+  nama: "NAUFAL FIFA",
+  foto: [profil1, profil2, profil3],
+  peran: ["Front End", "Programmer", "Mahasiswa", "Freelancer"],
   deskripsi:
-    "Saya adalah seorang mahasiswa yang penuh semangat dan programmer berbakat dengan fokus utama dalam pengembangan web di client side. Saya memiliki dedikasi yang kuat untuk menghasilkan kualitas tinggi dalam setiap proyek yang saya ambil. Saya menghadapi setiap tantangan baru dengan semangat belajar yang tak kenal lelah, dan pola pikir saya selalu terbuka untuk pertumbuhan dan perkembangan. Sikap positif saya menjadi kekuatan saya dalam menghadapi proyek-proyek yang kompleks. Saya siap untuk memberikan kontribusi yang berarti dalam setiap tugas yang saya terima, dengan fokus pada mencapai hasil terbaik untuk klien saya. Dalam dunia yang terus berkembang ini, saya memiliki tekad untuk terus memperbarui dan meningkatkan keterampilan saya sehingga saya dapat terus memberikan solusi kreatif dan inovatif dalam pengembangan web. Dengan semangat ini, saya yakin bahwa saya bisa mencapai hal-hal besar dalam karir sebagai seorang freelancer client-side web developer.",
+    "Saya seorang mahasiswa programmer web dengan fokus pada pengembangan web di sisi klien. Dedikasi, semangat belajar, dan sikap positif saya adalah kekuatan saya. Saya siap berkontribusi maksimal dan terus meningkatkan keterampilan untuk solusi kreatif. Yakin mencapai kesuksesan sebagai freelancer client-side web developer.",
   github: "https://github.com/fifovalle",
   insta: "https://www.instagram.com/fif_ovalle/",
 };
