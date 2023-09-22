@@ -204,6 +204,7 @@ export const TombolRingkasan = styled(motion.a)`
   transition: all 0.4s ease-in-out;
   filter: brightness(1);
   @media screen and (max-width: 640px) {
+    margin-top: -25px;
     padding: 12px 0;
     font-size: 18px;
   }

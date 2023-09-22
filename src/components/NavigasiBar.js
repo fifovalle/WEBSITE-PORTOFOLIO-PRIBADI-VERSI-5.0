@@ -17,6 +17,7 @@ import {
 } from "../styles/NavigasiBar.styled";
 import { TautanNavigasi } from "../data/konstanta";
 import Logo from "../assets/Logo.png";
+import { Muncul } from "../utils/AnimasiHalaman";
 
 const NavigasiBar = () => {
   const [buka, aturBuka] = gunakanKendali(false);
@@ -30,7 +31,12 @@ const NavigasiBar = () => {
   return (
     <Navigasi>
       <WadahNavigasi>
-        <LogoNavigasi to="/">
+        <LogoNavigasi
+          to="/"
+          variants={Muncul("kanan", 0.3)}
+          initial="hilang"
+          whileInView={"ada"}
+        >
           <a
             href="/"
             style={{
@@ -45,10 +51,18 @@ const NavigasiBar = () => {
             <Teks>aufal FIFA</Teks>
           </a>
         </LogoNavigasi>
-        <IkonUntukHP>
+        <IkonUntukHP
+          variants={Muncul("kiri", 0.3)}
+          initial="hilang"
+          whileInView={"ada"}
+        >
           <FaBars onClick={beralihMenjadiBuka} />
         </IkonUntukHP>
-        <MenuNavigasi>
+        <MenuNavigasi
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.9, duration: 1, ease: "easeInOut" }}
+        >
           {TautanNavigasi.map((daftartautan) => (
             <Tautan key={daftartautan.id} href={daftartautan.tautan}>
               {daftartautan.nama}
@@ -56,7 +70,14 @@ const NavigasiBar = () => {
           ))}
         </MenuNavigasi>
         <WadahTombol>
-          <TombolGithub onClick={bukaGithub}>Github Saya</TombolGithub>
+          <TombolGithub
+            onClick={bukaGithub}
+            variants={Muncul("kiri", 0.3)}
+            initial="hilang"
+            whileInView={"ada"}
+          >
+            Github Saya
+          </TombolGithub>
         </WadahTombol>
       </WadahNavigasi>
       {buka && (

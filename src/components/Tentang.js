@@ -50,7 +50,7 @@ const Tentang = () => {
         <IsiTentang>
           <TentangBagianKiri>
             <Judul
-              variants={Muncul("up", 0.3)}
+              variants={Muncul("atas", 0.3)}
               initial="hilang"
               whileInView={"ada"}
               viewport={{ once: false, amount: 0.7 }}
@@ -58,7 +58,7 @@ const Tentang = () => {
               HALO, SAYA <br /> {Biografi.nama}
             </Judul>
             <TeksBerulang
-              variants={Muncul("up", 0.6)}
+              variants={Muncul("atas", 0.6)}
               initial="hilang"
               whileInView={"ada"}
               viewport={{ once: false, amount: 0.7 }}
@@ -75,7 +75,7 @@ const Tentang = () => {
               </Bungkus>
             </TeksBerulang>
             <Deskripsi
-              variants={Muncul("up", 0.8)}
+              variants={Muncul("atas", 0.8)}
               initial="hilang"
               whileInView={"ada"}
               viewport={{ once: false, amount: 0.7 }}

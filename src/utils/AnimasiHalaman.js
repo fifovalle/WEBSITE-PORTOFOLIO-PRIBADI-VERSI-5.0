@@ -1,9 +1,9 @@
 export const Muncul = (direction, delay) => {
   return {
     hilang: {
-      y: direction === "up" ? 80 : direction === "down" ? -80 : 0,
+      y: direction === "atas" ? 80 : direction === "bawah" ? -80 : 0,
       opacity: 0,
-      x: direction === "left" ? 80 : direction === "right" ? -80 : 0,
+      x: direction === "kiri" ? 80 : direction === "kanan" ? -80 : 0,
     },
     ada: {
       y: 0,

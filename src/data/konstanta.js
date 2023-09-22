@@ -60,9 +60,30 @@ export const Biografi = {
   nama: "NAUFAL FIFA",
   foto: [profil1, profil2, profil3],
   peran: ["Front End", "Programmer", "Mahasiswa", "Freelancer"],
-  deskripsi:
-    "Saya seorang mahasiswa programmer web dengan fokus pada pengembangan web di sisi klien. Dedikasi, semangat belajar, dan sikap positif saya adalah kekuatan saya. Saya siap berkontribusi maksimal dan terus meningkatkan keterampilan untuk solusi kreatif. Yakin mencapai kesuksesan sebagai freelancer client-side web developer.",
-  github: "https://github.com/fifovalle",
+  deskripsi: (
+    <p>
+      Saya seorang{" "}
+      <span style={{ color: "#FF56F6", fontWeight: "bold" }}>mahasiswa</span>{" "}
+      dan{" "}
+      <span style={{ color: "#FF56F6", fontWeight: "bold" }}>
+        programmer web
+      </span>{" "}
+      dengan fokus pada pengembangan web di{" "}
+      <span style={{ color: "#FF56F6", fontWeight: "bold" }}>sisi klien</span>,
+      atau{" "}
+      <span style={{ color: "#FF56F6", fontWeight: "bold" }}>front end</span>.{" "}
+      Dedikasi, semangat belajar, dan sikap positif saya adalah kekuatan saya.
+      Saya siap berkontribusi semaksimal mungkin dan terus meningkatkan
+      keterampilan untuk solusi kreatif. Saya yakin bisa mencapai kesuksesan
+      sebagai{" "}
+      <span style={{ color: "#FF56F6", fontWeight: "bold" }}>freelancer</span>{" "}
+      dan{" "}
+      <span style={{ color: "#FF56F6", fontWeight: "bold" }}>
+        client-side web developer
+      </span>
+      .
+    </p>
+  ),
   insta: "https://www.instagram.com/fif_ovalle/",
 };
 

@@ -2,6 +2,8 @@
 import styled, { keyframes as kuncifrem } from "styled-components";
 // FILE REACT
 import { Link as TautanNavigasi } from "react-router-dom";
+// FILE FRAMER-MOTION
+import { motion } from "framer-motion";
 
 const muncul = kuncifrem`
   0% {
@@ -57,7 +59,7 @@ export const WadahNavigasi = styled.div`
   }
 `;
 
-export const LogoNavigasi = styled(TautanNavigasi)`
+export const LogoNavigasi = styled(motion(TautanNavigasi))`
   width: 80%;
   padding: 0 6px;
   display: flex;
@@ -76,7 +78,7 @@ export const LogoNavigasi = styled(TautanNavigasi)`
   }
 `;
 
-export const MenuNavigasi = styled.ul`
+export const MenuNavigasi = styled(motion.ul)`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -117,7 +119,7 @@ export const WadahTombol = styled.div`
   }
 `;
 
-export const TombolGithub = styled.button`
+export const TombolGithub = styled(motion.button)`
   border: 1.8px solid ${({ theme }) => theme.primer};
   border-radius: 20px;
   display: flex;
@@ -179,14 +181,14 @@ export const Teks = styled.div`
   }
 `;
 
-export const IkonUntukHP = styled.div`
+export const IkonUntukHP = styled(motion.div)`
   display: none;
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 29px;
+    right: 20px;
     transform: translate(-100%, 50%);
     font-size: 1.5rem;
     cursor: pointer;
