@@ -8,15 +8,18 @@ import { temaGelap } from "./utils/Tema";
 import { Badan, Pembungkus } from "./styles/Aplikasi.styled";
 import NavigasiBar from "./components/NavigasiBar";
 import Tentang from "./components/Tentang";
+import Keahlian from "./components/Keahlian";
 
 function Aplikasi() {
   return (
     <PenyediaTema theme={temaGelap}>
       <Jalur>
         <NavigasiBar />
-        <Badan></Badan>
-        <Pembungkus>
+        <Badan>
           <Tentang />
+        </Badan>
+        <Pembungkus>
+          <Keahlian />
         </Pembungkus>
       </Jalur>
     </PenyediaTema>

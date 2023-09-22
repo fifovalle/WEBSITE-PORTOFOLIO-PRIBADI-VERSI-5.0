@@ -10,5 +10,4 @@ export const Badan = styled.div`
 
 export const Pembungkus = styled.div`
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
 `;

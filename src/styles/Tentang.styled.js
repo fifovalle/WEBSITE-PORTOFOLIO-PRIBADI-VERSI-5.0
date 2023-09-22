@@ -134,6 +134,7 @@ export const TeksBerulang = styled(motion.div)`
 `;
 
 export const Bungkus = styled.span`
+  font-weight: 800;
   color: ${({ theme }) => theme.warna_hover};
 `;
 
@@ -166,7 +167,7 @@ export const TombolRingkasan = styled(motion.a)`
   cursor: pointer;
   font-size: 20px;
   font-weight: 500;
-  margin-top: -40px;
+  margin-top: -30px;
   transition: all 0.2s ease-in-out !important;
   background: linear-gradient(
     92.23deg,

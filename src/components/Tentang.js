@@ -1,8 +1,11 @@
 // FILE REACT
+import { useInView as gunakanSaatDilihat } from "react-intersection-observer";
 import React, {
   useEffect as gunakanEfek,
   useState as gunakanWilayah,
 } from "react";
+// FILE FRAMER-MOTION
+import { useAnimation as gunakanAnimasi } from "framer-motion";
 // TYPE WRITER
 import Typewriter from "typewriter-effect";
 // FILE FRAMER-MOTION
@@ -30,6 +33,22 @@ import gambarpartikel from "../assets/partikel.png";
 import { Muncul } from "../utils/AnimasiHalaman";
 
 const Tentang = () => {
+  const kontrol = gunakanAnimasi();
+  const [referensi, saatDilihat] = gunakanSaatDilihat();
+  gunakanEfek(() => {
+    const konfigurasiAnimasi = saatDilihat
+      ? {
+          opacity: 1,
+          x: 0,
+          y: 0,
+        }
+      : {
+          opacity: 0,
+          x: 0,
+          y: 0,
+        };
+    kontrol.start(konfigurasiAnimasi);
+  }, [kontrol, saatDilihat]);
   const [indexBaru, setindexBaru] = gunakanWilayah(0);
   gunakanEfek(() => {
     const interval = setInterval(() => {
@@ -38,7 +57,7 @@ const Tentang = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div id="tentang">
+    <section id="tentang">
       <WadahTentang>
         <LatarTentang
           initial={{ opacity: 0 }}
@@ -83,10 +102,10 @@ const Tentang = () => {
               {Biografi.deskripsi}
             </Deskripsi>
             <TombolRingkasan
-              initial={{ scale: 0 }}
-              animate={{ scale: 1 }}
-              transition={{ delay: 1.7, duration: 0.5, ease: "easeOut" }}
-              viewport={{ once: false, amount: 0.7 }}
+              ref={referensi}
+              initial={{ opacity: 0, x: 0, y: 0 }}
+              animate={kontrol}
+              transition={{ duration: 3, ease: "easeInOut" }}
             >
               Cek Ringkasan Singkat
             </TombolRingkasan>
@@ -143,7 +162,7 @@ const Tentang = () => {
           </TentangBagianKanan>
         </IsiTentang>
       </WadahTentang>
-    </div>
+    </section>
   );
 };
 

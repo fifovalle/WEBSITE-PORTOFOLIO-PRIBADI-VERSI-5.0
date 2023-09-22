@@ -87,73 +87,94 @@ export const Biografi = {
   insta: "https://www.instagram.com/fif_ovalle/",
 };
 
-export const Keahlian = [
+export const KumpulanKeahlian = [
   {
-    judul: "Client Side Web Developer",
+    id: 0,
+    judul: "Client Side",
     keahlian: [
       {
+        id: 0,
         nama: "React Js",
         gambar: react,
       },
       {
+        id: 1,
         nama: "Next Js",
         gambar: nextjs,
       },
       {
+        id: 2,
         nama: "Tailwind Css",
         gambar: tailwindcss,
       },
       {
+        id: 3,
         nama: "Bootstrap",
         gambar: bootstrap,
       },
       {
+        id: 4,
         nama: "Typescript",
         gambar: typescript,
       },
       {
+        id: 5,
         nama: "Javascript",
         gambar: javascript,
       },
       {
+        id: 6,
         nama: "Sass",
         gambar: sass,
       },
       {
+        id: 7,
         nama: "HTML",
         gambar: html,
       },
       {
+        id: 8,
         nama: "CSS",
         gambar: css,
       },
     ],
   },
   {
-    title: "Server Side Web Developer",
+    id: 1,
+    judul: "Server Side",
     keahlian: [
       {
+        id: 0,
         nama: "Node Js",
         gambar: nodejs,
       },
       {
+        id: 1,
         nama: "Next Js",
         gambar: nextjs,
       },
     ],
   },
   {
+    id: 2,
     judul: "Lainnya",
     keahlian: [
       {
+        id: 0,
         nama: "Git",
         gambar: git,
       },
       {
+        id: 1,
         nama: "Figma",
         gambar: figma,
       },
     ],
+  },
+  {
+    id: 3,
+    judul: "Android",
+    keahlian: [],
   },
 ];
 

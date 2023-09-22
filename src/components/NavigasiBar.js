@@ -1,5 +1,8 @@
 // FILE REACT
-import React, { useState as gunakanKendali } from "react";
+import React, {
+  useState as gunakanKendali,
+  useEffect as gunakanEfek,
+} from "react";
 import { FaBars } from "react-icons/fa";
 // FILE SAYA
 import {
@@ -20,6 +23,17 @@ import Logo from "../assets/Logo.png";
 import { Muncul } from "../utils/AnimasiHalaman";
 
 const NavigasiBar = () => {
+  const [tautanAktif, aturTautanAktif] = gunakanKendali("");
+  gunakanEfek(() => {
+    const kendalikanPerubahan = () => {
+      const hashSaatIni = window.location.hash;
+      aturTautanAktif(hashSaatIni);
+    };
+    window.addEventListener("hashchange", kendalikanPerubahan);
+    return () => {
+      window.removeEventListener("hashchange", kendalikanPerubahan);
+    };
+  }, []);
   const [buka, aturBuka] = gunakanKendali(false);
   const urlGithub = "https://github.com/fifovalle";
   const bukaGithub = () => {
@@ -64,7 +78,14 @@ const NavigasiBar = () => {
           transition={{ delay: 0.9, duration: 1, ease: "easeInOut" }}
         >
           {TautanNavigasi.map((daftartautan) => (
-            <Tautan key={daftartautan.id} href={daftartautan.tautan}>
+            <Tautan
+              key={daftartautan.id}
+              href={daftartautan.tautan}
+              style={{
+                color:
+                  tautanAktif === daftartautan.tautan ? "#FF56F6" : "white",
+              }}
+            >
               {daftartautan.nama}
             </Tautan>
           ))}
