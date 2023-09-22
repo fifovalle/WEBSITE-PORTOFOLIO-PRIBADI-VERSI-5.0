@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { motion } from "framer-motion";
 
 export const Wadah = styled.div`
-  padding-top: 40px;
+  padding: 80px 0;
   display: flex;
   flex-direction: column;
   justify-content: center;

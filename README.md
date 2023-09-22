@@ -3,6 +3,9 @@ Tunggu sebentar! Saya sedang mengejar waktu untuk memberikan pengalaman terbaik 
 Selamat datang di Website Saya yang Sedang Dalam Pengembangan! 🌟
 Saya tengah giat bekerja untuk memberikan Anda pengalaman online yang lebih baik. Dari perancangan desain hingga pengkodean, saya mengupayakan agar website ini menjadi tempat yang informatif dan interaktif bagi Anda.
 
+![Screenshot 2023-09-22 110252](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/e7da2abe-59e2-4b3a-9672-2c54c5d44d37)
+![Screenshot 2023-09-22 110342](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/090c86f3-7f58-43a1-bcf8-66bfb79fd39b)
+
 ## 🤔 Tentang Portofolio
 
 Website ini adalah tempat di mana saya memamerkan portofolio saya yang mencakup berbagai proyek desain dan pengembangan web yang telah saya kerjakan. Saya berkomitmen untuk menciptakan pengalaman online yang menarik dan bermanfaat bagi pengguna, dan semua itu tercermin dalam karya-karya yang saya tampilkan di sini.
