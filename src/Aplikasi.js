@@ -11,6 +11,7 @@ import Tentang from "./components/Tentang";
 import Keahlian from "./components/Keahlian";
 import Pengalaman from "./components/Pengalaman";
 import Proyek from "./components/Proyek";
+import Edukasi from "./components/Edukasi";
 
 function Aplikasi() {
   return (
@@ -25,6 +26,9 @@ function Aplikasi() {
           <Pengalaman />
         </Pembungkus>
         <Proyek />
+        <Pembungkus>
+          <Edukasi />
+        </Pembungkus>
       </Jalur>
     </PenyediaTema>
   );

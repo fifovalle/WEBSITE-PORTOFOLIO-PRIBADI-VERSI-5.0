@@ -334,33 +334,36 @@ export const KumpulanProyek = [
   },
 ];
 
-export const Edukasi = [
+export const KumpulanEdukasi = [
   {
     id: 0,
     gambar: sd,
     sekolah: "SDN Babakan Pari",
-    date: "Juli 2008 - Juli 2014",
+    lama: "Juli 2008 - Juli 2014",
     deskripsi:
       "Saya memiliki kenangan indah dari masa sekolah saya di SDN Babakan Pari dari Juli 2008 hingga Juli 2014. Selama periode ini, saya mengalami fase penting dalam perkembangan pendidikan dan pribadi saya. Sekolah ini memberikan dasar yang kokoh dalam pendidikan dasar dan nilai-nilai penting seperti kerja sama, disiplin, dan semangat belajar. Ini adalah tempat di mana saya pertama kali mulai mengejar minat saya dalam bidang teknologi dan komputer, yang akhirnya mengarahkan saya ke dunia pengembangan web. Pengalaman di SDN Babakan Pari telah membantu membentuk fondasi saya sebagai individu yang bersemangat untuk belajar dan berkembang, dan saya selalu berterima kasih atas pengalaman berharga ini.",
-    Jurusan: "Kelas 6 SD",
+    jurusan: "Kelas 6 SD",
+    nilai: "90%",
   },
   {
     id: 1,
     gambar: smp,
     sekolah: "SMPN 3 Batujajar",
-    date: "Juli 2014 - Juli 2017",
+    lama: "Juli 2014 - Juli 2017",
     deskripsi:
       "SMPN 3 Batujajar adalah tempat di mana saya melanjutkan perjalanan pendidikan saya dari Juli 2014 hingga Juli 2017. Selama tahun-tahun ini, saya terlibat dalam berbagai kegiatan akademis dan ekstrakurikuler yang telah membentuk perkembangan pribadi saya. Sekolah ini tidak hanya memberikan wawasan lebih dalam dalam bidang pendidikan dasar, tetapi juga mengajarkan nilai-nilai seperti kerjasama tim, tanggung jawab, dan ketekunan. Ini adalah masa yang penting dalam perkembangan saya sebagai individu yang berdedikasi untuk mencapai tujuan dan terus berusaha meningkatkan diri. Saya merasa beruntung telah mendapatkan pendidikan di SMPN 3 Batujajar, yang telah membantu membentuk fondasi yang kuat untuk perjalanan pendidikan dan karier saya selanjutnya.",
-    Jurusan: "Kelas 3 SMP",
+    jurusan: "Kelas 3 SMP",
+    nilai: "80%",
   },
   {
     id: 2,
     gambar: smk,
     sekolah: "SMK Mahardhika Batujajar",
-    date: "Juli 2017 - Juli 2020",
+    lama: "Juli 2017 - Juli 2020",
     deskripsi:
       "SMK Mahardhika Batujajar adalah tempat di mana saya melanjutkan perjalanan pendidikan saya dari Juli 2017 hingga Juli 2020. Selama tahun-tahun ini, saya terlibat dalam program pendidikan yang berfokus pada pengembangan keterampilan praktis dan persiapan untuk dunia kerja. Sekolah ini memberikan pemahaman mendalam tentang bidang-bidang seperti teknologi informasi, komputer, dan pemrograman. Selain itu, saya juga memiliki kesempatan untuk mengikuti berbagai kursus dan workshop yang membantu memperluas pengetahuan saya dalam bidang ini. SMK Mahardhika Batujajar telah mempersiapkan saya dengan keterampilan dan pengetahuan yang relevan untuk memulai karier saya sebagai seorang profesional di dunia teknologi. Saya selalu bersyukur atas pengalaman berharga ini dan siap untuk terus mengembangkan keterampilan yang telah saya peroleh selama masa sekolah.",
-    Jurusan: "Rekayasa Perangkat Lunak",
+    jurusan: "Rekayasa Perangkat Lunak",
+    nilai: "90%",
   },
   {
     id: 3,
@@ -369,7 +372,8 @@ export const Edukasi = [
     date: "September 2022 - Sekarang",
     deskripsi:
       "Saat ini, saya tengah mengejar gelar sarjana di Universitas Jenderal Achmad Yani sejak bulan September 2022. Pengalaman ini merupakan tahap berikutnya dalam perjalanan pendidikan saya yang penuh semangat. Di sini, saya sedang mengejar minat dan hasrat saya dalam dunia teknologi dan pengembangan web. Universitas ini telah memberikan peluang belajar yang luar biasa serta akses ke berbagai sumber daya dan pengajar ahli dalam bidang ini. Selama masa kuliah saya, saya berusaha keras untuk terus memperdalam pemahaman saya tentang konsep-konsep teknis dan tren terbaru dalam industri ini. Saya sangat bersemangat untuk terus mengembangkan diri selama masa kuliah ini dan mempersiapkan diri untuk karier yang sukses dalam pengembangan web.",
-    Jurusan: "Informatika",
+    jurusan: "Informatika",
+    nilai: "-",
   },
 ];
 

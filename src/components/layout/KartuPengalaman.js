@@ -14,7 +14,7 @@ import {
   Daftar,
   DaftarKeahlian,
   Dokumen,
-} from "../../styles/KartuKeahlian.styled";
+} from "../../styles/KartuPengalaman.styled";
 
 const KartuPengalaman = ({ pengalaman }) => {
   return (
