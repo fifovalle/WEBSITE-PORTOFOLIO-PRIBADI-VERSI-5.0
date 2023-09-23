@@ -75,7 +75,6 @@ export const Kartu = styled.div`
     padding: 10px;
     gap: 8px;
     width: 230px;
-    margin-right: 20px;
   }
   border: 0.1px solid #ff56f6;
   box-shadow: rgba(23, 92, 230, 0.15) 0 4px 24px;
