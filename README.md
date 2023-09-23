@@ -5,6 +5,7 @@ Saya tengah giat bekerja untuk memberikan Anda pengalaman online yang lebih baik
 
 ![Screenshot 2023-09-22 110252](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/e7da2abe-59e2-4b3a-9672-2c54c5d44d37)
 ![Screenshot 2023-09-22 110342](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/090c86f3-7f58-43a1-bcf8-66bfb79fd39b)
+![Screenshot 2023-09-23 100445](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/25d63ca5-f43a-46cc-bd4f-359f21410292)
 
 ## 🤔 Tentang Portofolio
 
