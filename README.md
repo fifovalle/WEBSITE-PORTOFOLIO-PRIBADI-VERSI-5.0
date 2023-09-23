@@ -4,7 +4,7 @@ Selamat datang di Website Saya yang Sedang Dalam Pengembangan! 🌟
 Saya tengah giat bekerja untuk memberikan Anda pengalaman online yang lebih baik. Dari perancangan desain hingga pengkodean, saya mengupayakan agar website ini menjadi tempat yang informatif dan interaktif bagi Anda.
 
 ![Screenshot 2023-09-22 110252](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/e7da2abe-59e2-4b3a-9672-2c54c5d44d37)
-![Screenshot 2023-09-22 110342](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/090c86f3-7f58-43a1-bcf8-66bfb79fd39b)
+![Screenshot 2023-09-23 130312](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/969b8a8b-099d-4236-9a94-3795c779241d)
 ![Screenshot 2023-09-23 100836](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/6782a936-d013-44c6-9ccc-4931b58dcd27)
 ![Screenshot 2023-09-23 130023](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/6271f733-9b25-4d50-8822-1610cafe7c52)
 
