@@ -15,6 +15,7 @@ import nodejs from "../assets/nodejs.png";
 import git from "../assets/git.png";
 import figma from "../assets/figma.png";
 import fiver from "../assets/fiver.png";
+import dokumen from "../assets/dokumen.png";
 import sd from "../assets/sd.png";
 import smp from "../assets/smp.png";
 import smk from "../assets/smk.png";
@@ -104,7 +105,7 @@ export const KumpulanKeahlian = [
       },
       {
         id: 2,
-        nama: "Tailwind Css",
+        nama: "Tailwind CSS",
         gambar: tailwindcss,
       },
       {
@@ -178,22 +179,24 @@ export const KumpulanKeahlian = [
   },
 ];
 
-export const Pengalaman = [
+export const KumpulanPengalaman = [
   {
     id: 0,
     gambar: fiver,
+    perusahaan: "Fiver",
     peran: "Freelancer",
     tanggal: "Agustus 2023 - Sekarang",
     deskripsi:
-      "Saya adalah seorang freelancer dengan pengalaman dalam pengembangan web di sisi klien. Sejak Agustus 2023, saya telah berfokus pada proyek-proyek yang melibatkan teknologi-teknologi terkini seperti ReactJS dan NodeJs untuk menciptakan pengalaman web yang menarik dan responsif. Saya juga mahir dalam menggunakan Tailwind CSS untuk mendesain tampilan yang modern dan rapi. Dengan dasar yang kuat dalam HTML, CSS, dan JavaScript, saya berkomitmen untuk memberikan kualitas terbaik dalam setiap proyek yang saya ambil. Saya senang berada di dunia pengembangan web yang dinamis dan selalu bersemangat untuk mempelajari hal-hal baru dalam industri ini.",
+      "Saya adalah seorang freelancer web dengan pengalaman di ReactJS, NodeJS, dan Tailwind CSS sejak Agustus 2023. Saya kuat dalam HTML, CSS, dan JavaScript serta berkomitmen untuk memberikan kualitas terbaik dalam setiap proyek. Saya senang mempelajari perkembangan terbaru dalam industri pengembangan web.",
     keahlian: [
-      "ReactJS",
-      "NodeJs",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
+      "ReactJS,",
+      "NodeJs,",
+      "Tailwind CSS,",
+      "HTML,",
+      "CSS,",
       "JavaScript",
     ],
+    dokumen: dokumen,
   },
 ];
 

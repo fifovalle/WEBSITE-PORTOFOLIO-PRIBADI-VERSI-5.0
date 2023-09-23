@@ -9,6 +9,7 @@ import { Badan, Pembungkus } from "./styles/Aplikasi.styled";
 import NavigasiBar from "./components/NavigasiBar";
 import Tentang from "./components/Tentang";
 import Keahlian from "./components/Keahlian";
+import Pengalaman from "./components/Pengalaman";
 
 function Aplikasi() {
   return (
@@ -20,6 +21,7 @@ function Aplikasi() {
         </Badan>
         <Pembungkus>
           <Keahlian />
+          <Pengalaman />
         </Pembungkus>
       </Jalur>
     </PenyediaTema>

@@ -54,7 +54,7 @@ const Keahlian = () => {
             whileInView={"ada"}
             viewport={{ once: false, amount: 0.7 }}
           >
-            Kumpulan Keahlian Saya Yang Saya Miliki:
+            Kumpulan Keahlian Saya
           </Deskripsi>
           <WadahKeahlian
             ref={referensi}
