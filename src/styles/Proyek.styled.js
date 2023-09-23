@@ -46,7 +46,7 @@ export const Deskripsi = styled(motion.div)`
   }
 `;
 
-export const KelompokTombol = styled.div`
+export const KelompokTombol = styled(motion.div)`
   display: flex;
   border: 1.5px solid ${({ theme }) => theme.warna_hover};
   color: ${({ theme }) => theme.teks_primer};
@@ -83,7 +83,7 @@ export const Pembagi = styled.div`
   background-color: ${({ theme }) => theme.warna_hover};
 `;
 
-export const WadahKartu = styled.div`
+export const WadahKartu = styled(motion.div)`
   display: flex;
   justify-content: center;
   align-items: center;
