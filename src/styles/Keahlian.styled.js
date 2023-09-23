@@ -58,19 +58,14 @@ export const WadahKeahlian = styled(motion.div)`
 export const KeahlianKeahlian = styled.div`
   width: 100%;
   max-width: 500px;
-  box-shadow: 0px 1.42184px 21.23px rgba(255, 86, 246, 0.51);
-  background: linear-gradient(
-    52.23deg,
-    rgba(255, 86, 246, 0.1) 21.43%,
-    rgba(185, 54, 238, 0.2) 50.63%,
-    rgba(59, 172, 226, 0.2) 100%,
-    rgba(64, 106, 255, 0.1) 117.04%
-  );
+  background: transparent;
+  border: 0.5px solid ${({ theme }) => theme.warna_hover};
   border-radius: 16px;
   padding: 18px 36px;
   &:hover {
     cursor: pointer;
     scale: 1.1;
+    box-shadow: 0px 1.42184px 21.23px rgba(255, 86, 246, 0.51);
   }
   transition: all 0.4s ease-in-out;
   @media screen and (max-width: 768px) {

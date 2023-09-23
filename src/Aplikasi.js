@@ -10,6 +10,7 @@ import NavigasiBar from "./components/NavigasiBar";
 import Tentang from "./components/Tentang";
 import Keahlian from "./components/Keahlian";
 import Pengalaman from "./components/Pengalaman";
+import Proyek from "./components/Proyek";
 
 function Aplikasi() {
   return (
@@ -23,6 +24,7 @@ function Aplikasi() {
           <Keahlian />
           <Pengalaman />
         </Pembungkus>
+        <Proyek />
       </Jalur>
     </PenyediaTema>
   );

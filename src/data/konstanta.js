@@ -1,4 +1,5 @@
 // FILE SAYA
+import profil from "../assets/1.jpg";
 import profil1 from "../assets/1.png";
 import profil2 from "../assets/gambar2.png";
 import profil3 from "../assets/gambar3.png";
@@ -23,6 +24,9 @@ import kuliah from "../assets/kuliah.png";
 import proyek1 from "../assets/proyek1.png";
 import proyek2 from "../assets/proyek2.png";
 import proyek3 from "../assets/proyek3.png";
+import proyek4 from "../assets/proyek4.png";
+import proyek5 from "../assets/proyek5.png";
+import proyek6 from "../assets/proyek6.png";
 
 export const TautanNavigasi = [
   {
@@ -200,6 +204,136 @@ export const KumpulanPengalaman = [
   },
 ];
 
+export const TombolProyek = [
+  {
+    id: 0,
+    nama: "SEMUA",
+  },
+  {
+    id: 1,
+    nama: "APLIKASI WEBSITE",
+  },
+  {
+    id: 2,
+    nama: "APLIKASI ANDROID",
+  },
+  {
+    id: 3,
+    nama: "KECERDASAN BUATAN",
+  },
+];
+
+export const KumpulanProyek = [
+  {
+    id: 0,
+    judul: "Portofolio Pribadi",
+    tanggal: "30 Agustus 2023",
+    deskripsi:
+      "Portofolio Pribadi saya, yang dibuat pada tanggal 30 Agustus 2023, adalah proyek yang sangat saya banggakan. Ini adalah wujud dari dedikasi saya dalam dunia pengembangan web, di mana saya menggabungkan teknologi-teknologi seperti JavaScript, HTML, dan CSS untuk menciptakan sebuah aplikasi website yang menarik. Portofolio ini merupakan tempat di mana saya dapat memamerkan berbagai proyek dan karya-karya kreatif saya, serta berbagi pengalaman dan pemikiran tentang perkembangan teknologi terkini. Proyek ini adalah contoh nyata dari kemampuan saya dalam mengembangkan aplikasi web yang responsif dan menarik.",
+    gambar: proyek1,
+    peralatan: ["JavaScript", "HTML", "CSS"],
+    kategori: "APLIKASI WEBSITE",
+    github: "https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI",
+    tim: [
+      {
+        nama: "Naufal FIFA",
+        gambar: profil,
+        github: "https://github.com/fifovalle",
+      },
+    ],
+  },
+  {
+    id: 1,
+    judul: "Portofolio Pribadi Versi 2.0",
+    tanggal: "4 September 2023",
+    deskripsi:
+      "Portofolio Pribadi Versi 2.0 saya, yang dirilis pada tanggal 4 September 2023, adalah evolusi dari proyek sebelumnya yang saya persembahkan dengan bangga. Dalam versi ini, saya telah memperkaya pengalaman pengguna dengan mengintegrasikan teknologi-teknologi seperti JavaScript, HTML, CSS, dan Bootstrap. Tujuan utama dari portofolio ini tetap sama: untuk memberikan wawasan yang lebih mendalam tentang karya-karya kreatif saya dan pengalaman pengembangan web saya. Saya menghadirkan portofolio ini sebagai wadah yang lebih fungsional dan responsif bagi berbagai proyek yang telah saya kerjakan. Ini adalah bukti nyata dari kemajuan saya dalam dunia pengembangan web, dan saya berharap dapat berbagi lebih banyak inspirasi dengan semua orang. Silakan jelajahi portofolio ini dan lihat proyek-proyek saya.",
+    gambar: proyek2,
+    peralatan: ["JavaScript", "HTML", "CSS", "Bootstrap"],
+    kategori: "APLIKASI WEBSITE",
+    github: "https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-2.0",
+    tim: [
+      {
+        nama: "Naufal FIFA",
+        gambar: profil,
+        github: "https://github.com/fifovalle",
+      },
+    ],
+  },
+  {
+    id: 2,
+    judul: "Portofolio Pribadi Versi 3.0",
+    tanggal: "4 September 2023",
+    deskripsi:
+      "Portofolio Pribadi Versi 3.0, yang diperkenalkan pada tanggal 4 September 2023, adalah langkah terbaru dalam perjalanan pengembangan web saya. Dalam versi ini, saya telah mengambil langkah besar dengan mengintegrasikan teknologi React bersama dengan JavaScript, HTML, dan CSS. Portofolio ini merupakan refleksi dari komitmen saya untuk selalu berkembang dalam dunia pengembangan web dan memberikan pengalaman yang lebih interaktif kepada pengguna. Versi terbaru ini memberikan kemudahan navigasi, tampilan yang lebih menarik, dan responsivitas yang tinggi. Saya sangat bersemangat untuk mempersembahkan proyek-proyek terbaru dan pembaruan lainnya dalam portofolio ini. Jelajahi portofolio ini dan temukan lebih banyak tentang karya-karya saya serta eksplorasi teknologi terkini. Terima kasih telah mengikuti perjalanan saya dalam dunia pengembangan web.",
+    gambar: proyek3,
+    peralatan: ["JavaScript", "HTML", "CSS", "React"],
+    kategori: "APLIKASI WEBSITE",
+    github: "https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-3.0",
+    tim: [
+      {
+        nama: "Naufal FIFA",
+        gambar: profil,
+        github: "https://github.com/fifovalle",
+      },
+    ],
+  },
+  {
+    id: 3,
+    judul: "Portofolio Pribadi Versi 4.0",
+    tanggal: "13 September 2023",
+    deskripsi:
+      "Portofolio Pribadi Versi 4.0, yang diperkenalkan pada tanggal 13 September 2023, adalah langkah terbaru dalam perjalanan pengembangan web saya. Dalam versi ini, saya telah mengambil langkah besar dengan mengintegrasikan teknologi React bersama dengan JavaScript, HTML, dan CSS. Portofolio ini merupakan refleksi dari komitmen saya untuk selalu berkembang dalam dunia pengembangan web dan memberikan pengalaman yang lebih interaktif kepada pengguna. Versi terbaru ini memberikan kemudahan navigasi, tampilan yang lebih menarik, dan responsivitas yang tinggi. Saya sangat bersemangat untuk mempersembahkan proyek-proyek terbaru dan pembaruan lainnya dalam portofolio ini. Jelajahi portofolio ini dan temukan lebih banyak tentang karya-karya saya serta eksplorasi teknologi terkini. Terima kasih telah mengikuti perjalanan saya dalam dunia pengembangan web.",
+    gambar: proyek4,
+    peralatan: ["JavaScript", "HTML", "React", "Tailwind CSS"],
+    kategori: "APLIKASI WEBSITE",
+    github: "https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-4.0",
+    tim: [
+      {
+        nama: "Naufal FIFA",
+        gambar: profil,
+        github: "https://github.com/fifovalle",
+      },
+    ],
+  },
+  {
+    id: 4,
+    judul: "Landing Page",
+    tanggal: "15 September 2023",
+    deskripsi:
+      "Landing Page Sayuran, dibuat pada tanggal 15 September 2023, adalah sebuah aplikasi website yang mengangkat tema sayuran. Menggunakan teknologi JavaScript, HTML, React, dan Tailwind CSS, proyek ini menjadi perwujudan komitmen kami untuk memperkenalkan dunia sayuran kepada pengguna secara menarik. Landing Page ini menghadirkan informasi lengkap tentang berbagai jenis sayuran, manfaat kesehatan, dan resep memasaknya.",
+    gambar: proyek5,
+    peralatan: ["JavaScript", "HTML", "React", "Tailwind CSS"],
+    kategori: "APLIKASI WEBSITE",
+    github: "https://github.com/fifovalle/WEBSITE-LANDING-PAGE",
+    tim: [
+      {
+        nama: "Naufal FIFA",
+        gambar: profil,
+        github: "https://github.com/fifovalle",
+      },
+    ],
+  },
+  {
+    id: 5,
+    judul: "Dashboard Admin",
+    tanggal: "11 September 2023",
+    deskripsi:
+      "Dashboard Admin yang diperkenalkan pada tanggal 11 September 2023 adalah sebuah aplikasi website yang didesain untuk memudahkan tugas administratif. Menggunakan teknologi JavaScript, HTML, React, dan CSS, proyek ini membantu pengguna untuk mengelola berbagai aspek administrasi dengan efisiensi tinggi. Dengan tampilan yang bersih dan responsif, Dashboard Admin ini menyediakan akses cepat ke berbagai fitur administratif yang penting.",
+    gambar: proyek6,
+    peralatan: ["JavaScript", "HTML", "React", "CSS"],
+    kategori: "APLIKASI WEBSITE",
+    github: "https://github.com/fifovalle/WEBSITE-DASHBOARD-ADMIN",
+    tim: [
+      {
+        nama: "Naufal FIFA",
+        gambar: profil,
+        github: "https://github.com/fifovalle",
+      },
+    ],
+  },
+];
+
 export const Edukasi = [
   {
     id: 0,
@@ -236,42 +370,6 @@ export const Edukasi = [
     deskripsi:
       "Saat ini, saya tengah mengejar gelar sarjana di Universitas Jenderal Achmad Yani sejak bulan September 2022. Pengalaman ini merupakan tahap berikutnya dalam perjalanan pendidikan saya yang penuh semangat. Di sini, saya sedang mengejar minat dan hasrat saya dalam dunia teknologi dan pengembangan web. Universitas ini telah memberikan peluang belajar yang luar biasa serta akses ke berbagai sumber daya dan pengajar ahli dalam bidang ini. Selama masa kuliah saya, saya berusaha keras untuk terus memperdalam pemahaman saya tentang konsep-konsep teknis dan tren terbaru dalam industri ini. Saya sangat bersemangat untuk terus mengembangkan diri selama masa kuliah ini dan mempersiapkan diri untuk karier yang sukses dalam pengembangan web.",
     Jurusan: "Informatika",
-  },
-];
-
-export const Proyek = [
-  {
-    id: 0,
-    judul: "Portofolio Pribadi",
-    tanggal: "17 September 2023",
-    deskripsi:
-      "Portofolio Pribadi saya, yang dibuat pada tanggal 17 September 2023, adalah proyek yang sangat saya banggakan. Ini adalah wujud dari dedikasi saya dalam dunia pengembangan web, di mana saya menggabungkan teknologi-teknologi seperti JavaScript, HTML, dan CSS untuk menciptakan sebuah aplikasi website yang menarik. Portofolio ini merupakan tempat di mana saya dapat memamerkan berbagai proyek dan karya-karya kreatif saya, serta berbagi pengalaman dan pemikiran tentang perkembangan teknologi terkini. Proyek ini adalah contoh nyata dari kemampuan saya dalam mengembangkan aplikasi web yang responsif dan menarik.",
-    gambar: proyek1,
-    teg: ["JavaScript", "HTML", "CSS"],
-    kategori: "aplikasi website",
-    github: "https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI",
-  },
-  {
-    id: 1,
-    judul: "Portofolio Pribadi Versi 2.0",
-    tanggal: "17 September 2023",
-    deskripsi:
-      "Portofolio Pribadi Versi 2.0 saya, yang dirilis pada tanggal 17 September 2023, adalah evolusi dari proyek sebelumnya yang saya persembahkan dengan bangga. Dalam versi ini, saya telah memperkaya pengalaman pengguna dengan mengintegrasikan teknologi-teknologi seperti JavaScript, HTML, CSS, dan Bootstrap. Tujuan utama dari portofolio ini tetap sama: untuk memberikan wawasan yang lebih mendalam tentang karya-karya kreatif saya dan pengalaman pengembangan web saya. Saya menghadirkan portofolio ini sebagai wadah yang lebih fungsional dan responsif bagi berbagai proyek yang telah saya kerjakan. Ini adalah bukti nyata dari kemajuan saya dalam dunia pengembangan web, dan saya berharap dapat berbagi lebih banyak inspirasi dengan semua orang. Silakan jelajahi portofolio ini dan lihat proyek-proyek saya.",
-    gambar: proyek2,
-    teg: ["JavaScript", "HTML", "CSS", "Bootstrap"],
-    kategori: "aplikasi website",
-    github: "https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-2.0",
-  },
-  {
-    id: 2,
-    judul: "Portofolio Pribadi Versi 3.0",
-    tanggal: "17 September 2023",
-    deskripsi:
-      "Portofolio Pribadi Versi 3.0, yang diperkenalkan pada tanggal 17 September 2023, adalah langkah terbaru dalam perjalanan pengembangan web saya. Dalam versi ini, saya telah mengambil langkah besar dengan mengintegrasikan teknologi React bersama dengan JavaScript, HTML, dan CSS. Portofolio ini merupakan refleksi dari komitmen saya untuk selalu berkembang dalam dunia pengembangan web dan memberikan pengalaman yang lebih interaktif kepada pengguna. Versi terbaru ini memberikan kemudahan navigasi, tampilan yang lebih menarik, dan responsivitas yang tinggi. Saya sangat bersemangat untuk mempersembahkan proyek-proyek terbaru dan pembaruan lainnya dalam portofolio ini. Jelajahi portofolio ini dan temukan lebih banyak tentang karya-karya saya serta eksplorasi teknologi terkini. Terima kasih telah mengikuti perjalanan saya dalam dunia pengembangan web.",
-    gambar: proyek3,
-    teg: ["JavaScript", "HTML", "CSS", "React"],
-    kategori: "aplikasi website",
-    github: "https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-2.0",
   },
 ];
 
