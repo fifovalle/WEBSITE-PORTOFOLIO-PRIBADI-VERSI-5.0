@@ -8,6 +8,8 @@ Saya tengah giat bekerja untuk memberikan Anda pengalaman online yang lebih baik
 ![Screenshot 2023-09-23 100836](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/6782a936-d013-44c6-9ccc-4931b58dcd27)
 ![Screenshot 2023-09-23 130023](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/6271f733-9b25-4d50-8822-1610cafe7c52)
 ![Screenshot 2023-09-23 153906](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/411a19c3-80d2-444a-b6bb-1a502b5392af)
+![Screenshot 2023-09-24 075428](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/1e5a841a-516a-47ba-880e-04a78912ec93)
+![Screenshot 2023-09-24 075607](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/0daa8b45-1354-45d5-b322-9ed3a53cf9fd)
 
 ## 🤔 Tentang Portofolio
 
