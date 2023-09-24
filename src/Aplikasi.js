@@ -12,6 +12,8 @@ import Keahlian from "./components/Keahlian";
 import Pengalaman from "./components/Pengalaman";
 import Proyek from "./components/Proyek";
 import Edukasi from "./components/Edukasi";
+import Kontak from "./components/Kontak";
+import Penutup from "./components/Penutup";
 
 function Aplikasi() {
   return (
@@ -28,7 +30,9 @@ function Aplikasi() {
         <Proyek />
         <Pembungkus>
           <Edukasi />
+          <Kontak />
         </Pembungkus>
+        <Penutup />
       </Jalur>
     </PenyediaTema>
   );

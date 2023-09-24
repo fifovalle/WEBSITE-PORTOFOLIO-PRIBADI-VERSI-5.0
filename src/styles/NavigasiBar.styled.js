@@ -85,9 +85,21 @@ export const MenuNavigasi = styled(motion.ul)`
   align-items: center;
   gap: 32px;
   list-style: none;
+  @media screen and (max-width: 1026px) {
+    transition: 0.8s all ease;
+    font-size: 16px;
+  }
+  @media screen and (max-width: 966px) {
+    transition: 0.8s all ease;
+    font-size: 14px;
+  }
   @media screen and (max-width: 938px) {
     transition: 0.8s all ease;
-    font-size: 15px;
+    font-size: 16px;
+  }
+  @media screen and (max-width: 916px) {
+    transition: 0.8s all ease;
+    font-size: 12px;
   }
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
@@ -167,9 +179,9 @@ export const Teks = styled.div`
   margin-left: -19px;
   margin-top: 30px;
   color: rgba(255, 86, 246, 1);
-  @media screen and (max-width: 938px) {
+  @media screen and (max-width: 1026px) {
     transition: 0.8s all ease;
-    font-size: 15px;
+    font-size: 14px;
   }
   @media screen and (max-width: 815px) {
     transition: 0.8s all ease;

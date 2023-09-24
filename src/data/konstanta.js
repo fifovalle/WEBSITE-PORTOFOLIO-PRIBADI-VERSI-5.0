@@ -54,6 +54,11 @@ export const TautanNavigasi = [
     tautan: "#edukasi",
     nama: "Edukasi",
   },
+  {
+    id: 5,
+    tautan: "#kontak",
+    nama: "Kontak",
+  },
 ];
 
 export const Transisi = {
@@ -89,7 +94,8 @@ export const Biografi = {
       .
     </p>
   ),
-  insta: "https://www.instagram.com/fif_ovalle/",
+  instagram: "https://www.instagram.com/fif_ovalle/",
+  github: "https://github.com/fifovalle",
 };
 
 export const KumpulanKeahlian = [
@@ -363,7 +369,7 @@ export const KumpulanEdukasi = [
     deskripsi:
       "SMK Mahardhika Batujajar adalah tempat di mana saya melanjutkan perjalanan pendidikan saya dari Juli 2017 hingga Juli 2020. Selama tahun-tahun ini, saya terlibat dalam program pendidikan yang berfokus pada pengembangan keterampilan praktis dan persiapan untuk dunia kerja. Sekolah ini memberikan pemahaman mendalam tentang bidang-bidang seperti teknologi informasi, komputer, dan pemrograman. Selain itu, saya juga memiliki kesempatan untuk mengikuti berbagai kursus dan workshop yang membantu memperluas pengetahuan saya dalam bidang ini. SMK Mahardhika Batujajar telah mempersiapkan saya dengan keterampilan dan pengetahuan yang relevan untuk memulai karier saya sebagai seorang profesional di dunia teknologi. Saya selalu bersyukur atas pengalaman berharga ini dan siap untuk terus mengembangkan keterampilan yang telah saya peroleh selama masa sekolah.",
     jurusan: "Rekayasa Perangkat Lunak",
-    nilai: "90%",
+    nilai: "95%",
   },
   {
     id: 3,
