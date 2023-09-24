@@ -29,7 +29,7 @@ import {
 } from "../styles/Tentang.styled";
 import { Biografi, Transisi } from "../data/konstanta";
 import LatarAnimasi from "../utils/AnimasiLatar";
-import gambarpartikel from "../assets/partikel.png";
+import gambarpartikel from "../assets/Partikel.png";
 import { Muncul } from "../utils/AnimasiHalaman";
 
 const Tentang = () => {

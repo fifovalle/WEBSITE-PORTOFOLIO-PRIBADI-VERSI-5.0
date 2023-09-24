@@ -1,8 +1,8 @@
 // FILE SAYA
 import profil from "../assets/1.jpg";
 import profil1 from "../assets/1.png";
-import profil2 from "../assets/gambar2.png";
-import profil3 from "../assets/gambar3.png";
+import profil2 from "../assets/Gambar2.png";
+import profil3 from "../assets/Gambar3.png";
 import react from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import tailwindcss from "../assets/tailwindcss.png";
