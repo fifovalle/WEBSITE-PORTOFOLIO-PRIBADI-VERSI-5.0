@@ -1,7 +1,4 @@
-Tunggu sebentar! Saya sedang mengejar waktu untuk memberikan pengalaman terbaik kepada Anda. 🚀
-
-Selamat datang di Website Saya yang Sedang Dalam Pengembangan! 🌟
-Saya tengah giat bekerja untuk memberikan Anda pengalaman online yang lebih baik. Dari perancangan desain hingga pengkodean, saya mengupayakan agar website ini menjadi tempat yang informatif dan interaktif bagi Anda.
+**Website Portofolio Pribadi Versi 5.0 - README**
 
 ![Screenshot 2023-09-22 110252](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/e7da2abe-59e2-4b3a-9672-2c54c5d44d37)
 ![Screenshot 2023-09-23 130312](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/969b8a8b-099d-4236-9a94-3795c779241d)
@@ -11,32 +8,32 @@ Saya tengah giat bekerja untuk memberikan Anda pengalaman online yang lebih baik
 ![Screenshot 2023-09-24 075428](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/1e5a841a-516a-47ba-880e-04a78912ec93)
 ![Screenshot 2023-09-24 075607](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/0daa8b45-1354-45d5-b322-9ed3a53cf9fd)
 
-## 🤔 Tentang Portofolio
+Selamat datang di Website Portofolio Pribadi Versi 5.0 saya di GitHub! 🚀
 
-Website ini adalah tempat di mana saya memamerkan portofolio saya yang mencakup berbagai proyek desain dan pengembangan web yang telah saya kerjakan. Saya berkomitmen untuk menciptakan pengalaman online yang menarik dan bermanfaat bagi pengguna, dan semua itu tercermin dalam karya-karya yang saya tampilkan di sini.
+Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat lunak. Dari aplikasi web hingga proyek mobile, temukan ragam proyek yang mencerminkan dedikasi saya dalam teknologi.
 
-## ⏳ Apa yang Akan Datang?
+## 📂 Navigasi Proyek
 
-Dalam versi 5.0 ini, saya telah melakukan berbagai perubahan dan peningkatan untuk meningkatkan kualitas dan navigasi website:
+- **Loader:** Mengalami sensasi penggunaan HashLoader dari React.
+- **Tetang Saya:** Temukan lebih lanjut tentang saya dan latar belakang saya.
+- **Keahlian Saya:** Lihat keahlian dan kemampuan yang saya miliki dalam dunia pengembangan perangkat lunak.
+- **Pengalaman Saya:** Pelajari pengalaman dan proyek-proyek yang telah saya lakukan.
+- **Proyek Saya:** Telusuri berbagai proyek yang telah saya kerjakan, dari aplikasi web hingga proyek mobile.
+- **Edukasi Saya:** Ketahui latar belakang pendidikan dan pelatihan saya.
+- **Kontak:** Jika Anda ingin berkolaborasi, berbicara, atau memiliki pertanyaan, jangan ragu untuk menghubungi saya.
 
--**Desain yang Lebih Modern:** Tampilan website telah diperbarui dengan desain yang lebih segar dan modern. -**Navigasi yang Ditingkatkan:** Anda akan dengan mudah menemukan proyek-proyek dan informasi yang Anda cari. -**Koleksi Proyek Terbaru:** Saya telah menambahkan proyek-proyek terbaru yang mencakup berbagai aspek desain dan pengembangan web.
+## 🛠️ Dibuat Dengan
 
-## 💬 Beri Masukan
-
-Saya menghargai pendapat Anda! Jika Anda memiliki ide atau masukan tentang apa yang ingin Anda lihat di website ini, jangan ragu untuk menghubungi Saya. Saya ingin website ini menjadi tempat yang berguna dan relevan bagi Anda.
+- Bahasa Pemrograman: JavaScript.
+- Pengembangan Web: HTML, Styled Components, React.
+- Alat Pengembangan: Visual Studio Code, Git
+- Kerangka Kerja: Node.js.
 
 ## 📬 Kontak
 
 Ingin berkolaborasi atau mendiskusikan proyek? Jangan ragu untuk menghubungi saya melalui email di [fifanaufal10@gmail.com](mailto:fifanaufal10@gmail.com) atau terhubung dengan saya di [WhatApp](https://wa.me/+6281223652490).
 
-## 🛠️ Dibuat Dengan
-
-- Bahasa Pemrograman: JavaScript.
-- Pengembangan Web: HTML, Styled-Components, React.
-- Alat Pengembangan: Visual Studio Code, Git
-- Kerangka Kerja: Node.js.
-
-Terima kasih atas kunjungan Anda dan kesabaran Anda selama proses pengembangan. Saya berharap dapat memberikan pengalaman yang lebih baik dalam waktu dekat! 🙌
+Terima kasih telah mengunjungi Website Portofolio Pribadi Versi 5.0 saya di GitHub! 🙌
 
 <div align="center">
   &copy; 2023 [Naufal FIFA]
