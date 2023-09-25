@@ -1,7 +1,7 @@
 // FILE REACT
 import { BrowserRouter as Jalur } from "react-router-dom";
 import { useState as gunakanKendali, useEffect as gunakanEfek } from "react";
-import { PacmanLoader } from "react-spinners";
+import { MoonLoader } from "react-spinners";
 // FILE STYLED COMPONENTS
 import { ThemeProvider as PenyediaTema } from "styled-components";
 // FILE SAYA
@@ -25,20 +25,18 @@ function Aplikasi() {
     project: null,
   });
   gunakanEfek(() => {
-    const kendalikanHalaman = () => {
+    const timeoutId = setTimeout(() => {
       aturApakahMemuat(false);
-    };
-    window.addEventListener("load", kendalikanHalaman);
+    }, 2000);
     return () => {
-      window.removeEventListener("load", kendalikanHalaman);
+      clearTimeout(timeoutId);
     };
   }, []);
-
   return (
     <PenyediaTema theme={temaGelap}>
       {apakahMemuat ? (
         <WadahMemuat>
-          <PacmanLoader color="#FF56F6" size={150} loading={apakahMemuat} />
+          <MoonLoader color="#FF56F6" size={100} loading={apakahMemuat} />
         </WadahMemuat>
       ) : (
         <Jalur>
