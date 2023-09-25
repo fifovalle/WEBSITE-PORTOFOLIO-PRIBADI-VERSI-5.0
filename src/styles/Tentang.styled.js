@@ -26,13 +26,19 @@ export const LatarTentang = styled(motion.div)`
   top: 50%;
   bottom: 0;
   right: 0;
-  left: 41%;
+  left: 43%;
   overflow: hidden;
   width: 100%;
   height: 100%;
   padding: 0 30px;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+  @media screen and (max-width: 1491px) {
+    top: 50%;
+    bottom: 0;
+    right: 0;
+    left: 46%;
+  }
   @media screen and (max-width: 960px) {
     padding: 0 0px;
     justify-content: center;

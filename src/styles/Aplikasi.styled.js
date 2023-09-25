@@ -11,3 +11,10 @@ export const Badan = styled.div`
 export const Pembungkus = styled.div`
   width: 100%;
 `;
+
+export const WadahMemuat = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+`;
