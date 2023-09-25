@@ -21,7 +21,7 @@ import {
 import { TombolProyek, KumpulanProyek } from "../data/konstanta";
 import { Muncul } from "../utils/AnimasiHalaman";
 
-const Proyek = () => {
+const Proyek = ({ bukaModal, aturBukaModal }) => {
   const [kategoriTerpilih, aturKategoriTerpilih] = gunakanKendali("SEMUA");
   const kendalikanTombolBeralih = (namaKategori) => {
     aturKategoriTerpilih(namaKategori);
@@ -91,7 +91,12 @@ const Proyek = () => {
                 kategoriTerpilih === "SEMUA" ||
                 proyek.kategori === kategoriTerpilih
             ).map((proyek) => (
-              <KartuProyek proyek={proyek} key={proyek.id} />
+              <KartuProyek
+                proyek={proyek}
+                key={proyek.id}
+                bukaModal={bukaModal}
+                aturBukaModal={aturBukaModal}
+              />
             ))}
           </WadahKartu>
         </Pembungkus>
