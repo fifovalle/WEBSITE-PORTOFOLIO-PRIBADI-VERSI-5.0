@@ -1,8 +1,7 @@
 // FILE SAYA
 import profil from "../assets/1.jpg";
-import profil1 from "../assets/1.png";
-import profil2 from "../assets/Gambar2.png";
-import profil3 from "../assets/Gambar3.png";
+import profil1 from "../assets/profil.png";
+import profil2 from "../assets/profil2.png";
 import react from "../assets/react.png";
 import nextjs from "../assets/nextjs.png";
 import tailwindcss from "../assets/tailwindcss.png";
@@ -68,7 +67,7 @@ export const Transisi = {
 
 export const Biografi = {
   nama: "NAUFAL FIFA",
-  foto: [profil1, profil2, profil3],
+  foto: [profil1, profil2],
   peran: ["Front End", "Programmer", "Mahasiswa", "Freelancer"],
   deskripsi: (
     <p>

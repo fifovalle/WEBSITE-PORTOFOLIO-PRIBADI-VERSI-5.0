@@ -67,4 +67,12 @@ export const Waktu = styled(motion.div)`
   @media (max-width: 660px) {
     align-items: center;
   }
+  @media (max-width: 400px) {
+    align-items: center;
+    margin-right: 40px;
+  }
+  @media (max-width: 350px) {
+    align-items: center;
+    margin-right: 35px;
+  }
 `;
