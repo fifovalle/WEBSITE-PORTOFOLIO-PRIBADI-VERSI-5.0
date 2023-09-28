@@ -1,8 +1,8 @@
 **Website Portofolio Pribadi Versi 5.0 - README**
 
-![Screenshot 2023-09-25 133941](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/e5dbdb2b-325d-455a-ad75-50083fd31cda)
+![Screenshot 2023-09-28 152050](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/75eeb047-e552-4802-822d-c10a365fa485)
 ![Screenshot 2023-09-22 110252](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/e7da2abe-59e2-4b3a-9672-2c54c5d44d37)
-![Screenshot 2023-09-23 130312](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/969b8a8b-099d-4236-9a94-3795c779241d)
+![Screenshot 2023-09-28 152508](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/6ad5b810-1d23-4ad6-9762-9dcb14aabfb6)
 ![Screenshot 2023-09-23 100836](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/6782a936-d013-44c6-9ccc-4931b58dcd27)
 ![Screenshot 2023-09-23 130023](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/6271f733-9b25-4d50-8822-1610cafe7c52)
 ![Screenshot 2023-09-25 071758](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/7272b4e6-bf1d-48a7-8af5-225888d0e96c)

@@ -8,6 +8,7 @@ import tailwindcss from "../assets/tailwindcss.png";
 import bootstrap from "../assets/bootstrap.png";
 import typescript from "../assets/typescript.png";
 import javascript from "../assets/javascript.png";
+import java from "../assets/java.png";
 import sass from "../assets/sass.png";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -184,7 +185,13 @@ export const KumpulanKeahlian = [
   {
     id: 3,
     judul: "Android",
-    keahlian: [],
+    keahlian: [
+      {
+        id: 0,
+        nama: "Java",
+        gambar: java,
+      },
+    ],
   },
 ];
 
