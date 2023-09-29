@@ -45,13 +45,12 @@ export const Kartu = styled.div`
   @media screen and (max-width: 400px) {
     padding: 10px;
     gap: 8px;
-    width: 250px;
+    width: 340px;
   }
   @media screen and (max-width: 350px) {
     padding: 10px;
     gap: 8px;
-    width: 230px;
-    margin-right: 20px;
+    width: 290px;
   }
   border: 0.1px solid #ff56f6;
   box-shadow: rgba(23, 92, 230, 0.15) 0 4px 24px;
