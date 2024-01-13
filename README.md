@@ -1,4 +1,31 @@
-**Website Portofolio Pribadi Versi 5.0 - README**
+**Selamat Datang di "Portofolio Pribadi Versi 5.0" Website! 🚀**
+
+Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat lunak. Dari aplikasi web hingga proyek mobile, temukan ragam proyek yang mencerminkan dedikasi saya dalam teknologi.
+
+### 🚧 Status Proyek
+
+- **Status:** Selesai
+- **Tanggal Rilis Diharapkan:** November 2023
+
+### 🚀 Fitur Utama
+
+- **Tentang:** Temukan lebih banyak tentang siapa saya, nilai-nilai yang saya pegang, dan visi saya untuk masa depan.
+- **Keahlian:** Lihat daftar keahlian dan keterampilan kunci yang telah saya kuasai.
+- **Pengalaman:** Telusuri pengalaman kerja dan proyek yang telah saya lakukan sepanjang karir saya.
+- **Proyek:** Lihat proyek-proyek yang telah saya rancang dan kerjakan, serta hasil yang telah dicapai.
+- **Edukasi:** Cari tahu latar belakang pendidikan saya, termasuk gelar, institusi, dan prestasi pendidikan lainnya.
+- **Kontak:** Hubungi saya untuk kolaborasi, pertanyaan, atau komunikasi lebih lanjut.
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Bahasa Pemrograman:** JavaScript.
+- **Alat Pengembangan:** Visual Studio Code, Git.
+- **Pengembangan Web:** HTML, CSS, Styled Components, React.
+- **Kerangka Kerja:** Node.js.
+
+## 📷 Preview Halaman
+
+Berikut adalah beberapa cuplikan tampilan halaman website :
 
 ![Screenshot 2023-09-28 152050](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/75eeb047-e552-4802-822d-c10a365fa485)
 ![Screenshot 2023-10-07 071558](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/baea0a05-f636-4d08-b9dd-fb8e36fccc0b)
@@ -10,32 +37,55 @@
 ![Screenshot 2023-09-24 075428](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/1e5a841a-516a-47ba-880e-04a78912ec93)
 ![Screenshot 2023-09-24 075607](https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0/assets/90078068/0daa8b45-1354-45d5-b322-9ed3a53cf9fd)
 
-Selamat datang di Website Portofolio Pribadi Versi 5.0 saya di GitHub! 🚀
-
-Jelajahi karya terbaru dan keterampilan saya dalam dunia pengembangan perangkat lunak. Dari aplikasi web hingga proyek mobile, temukan ragam proyek yang mencerminkan dedikasi saya dalam teknologi.
-
-## 📂 Navigasi Proyek
-
-- **Loader:** Mengalami sensasi penggunaan HashLoader dari React.
-- **Tetang Saya:** Temukan lebih lanjut tentang saya dan latar belakang saya.
-- **Keahlian Saya:** Lihat keahlian dan kemampuan yang saya miliki dalam dunia pengembangan perangkat lunak.
-- **Pengalaman Saya:** Pelajari pengalaman dan proyek-proyek yang telah saya lakukan.
-- **Proyek Saya:** Telusuri berbagai proyek yang telah saya kerjakan, dari aplikasi web hingga proyek mobile.
-- **Edukasi Saya:** Ketahui latar belakang pendidikan dan pelatihan saya.
-- **Kontak:** Jika Anda ingin berkolaborasi, berbicara, atau memiliki pertanyaan, jangan ragu untuk menghubungi saya.
-
-## 🛠️ Dibuat Dengan
-
-- Bahasa Pemrograman: JavaScript.
-- Pengembangan Web: HTML, Styled Components, React.
-- Alat Pengembangan: Visual Studio Code, Git
-- Kerangka Kerja: Node.js.
-
 ## 📬 Kontak
 
-Ingin berkolaborasi atau mendiskusikan proyek? Jangan ragu untuk menghubungi saya melalui email di [fifanaufal10@gmail.com](mailto:fifanaufal10@gmail.com) atau terhubung dengan saya di [WhatApp](https://wa.me/+6281223652490).
+Ingin berkolaborasi atau mendiskusikan proyek? Jangan ragu untuk menghubungi saya melalui email di [fifanaufal10@gmail.com](mailto:fifanaufal10@gmail.com) atau terhubung dengan saya di [WhatsApp](https://wa.me/+6281223652490).
 
-Terima kasih telah mengunjungi Website Portofolio Pribadi Versi 5.0 saya di GitHub! 🙌
+### 🙏 Kontribusi
+
+Kontribusi dan umpan balik dari komunitas sangat dihargai. Jika Anda ingin berkontribusi, silakan buat _pull request_ atau buka _issue_.
+
+### 👨‍💻 Cara Menjalankan Proyek
+
+1. Clone repositori ini ke direktori web server Anda.
+
+   ```bash
+   git clone https://github.com/fifovalle/WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0.git
+   ```
+   
+2. Pindah ke direktori proyek.
+
+   ```bash
+   cd WEBSITE-PORTOFOLIO-PRIBADI-VERSI-5.0
+   ```
+
+3. Buka proyek menggunakan editor kode favorit Anda, seperti Visual Studio Code atau Sublime Text.
+
+4. Instal dependensi proyek.
+
+   ```bash
+   npm install
+   ```
+
+5. Setelah instalasi selesai, jalankan proyek.
+
+   ```bash
+   npm start
+   ```
+
+   Proyek akan dijalankan dan dapat diakses melalui browser di `http://localhost:3000/`.
+
+6. Jika Anda ingin membuat versi produksi, gunakan perintah berikut.
+
+   ```bash
+   npm run build
+   ```
+
+   File build akan muncul di direktori `build/`.
+
+Dengan langkah-langkah ini, Anda sekarang dapat menjalankan dan mengembangkan proyek portofolio pribadi ini. Pastikan untuk menyesuaikan perintah git clone sesuai URL repositori yang Anda gunakan.
+
+Terima kasih atas antusiasme Anda menantikan kehadiran website ini! 🙌
 
 <div align="center">
   &copy; 2023 [Naufal FIFA]
