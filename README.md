@@ -83,8 +83,6 @@ Kontribusi dan umpan balik dari komunitas sangat dihargai. Jika Anda ingin berko
 
    File build akan muncul di direktori `build/`.
 
-Dengan langkah-langkah ini, Anda sekarang dapat menjalankan dan mengembangkan proyek portofolio pribadi ini. Pastikan untuk menyesuaikan perintah git clone sesuai URL repositori yang Anda gunakan.
-
 Terima kasih atas antusiasme Anda menantikan kehadiran website ini! 🙌
 
 <div align="center">
